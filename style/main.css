@@ -1,0 +1,83 @@
+/*Главный файл стилей css*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 920px;
+}
+.page {
+    width: 800px;
+    padding: 20px 80px 10px 80px;
+    font-family: "Times New Roman",sans-serif;
+}
+/*Заголовок названия страницы*/
+.page_title_one {
+  width:540;
+  font-family: "LucidaGrande", "Times New Roman",sans-serif;
+}
+
+/*Заголовок названия раздела*/
+.page_title_two {
+  font-weight: bold;
+}
+
+/*Заголовок названия подраздела*/
+.page_title_three {
+    font-size: 20px;
+}
+
+/*Параметры текст на странице*/
+.page_text {
+    font-size: 17px;
+    }
+
+/*Параметры списка первого уровня*/
+.list_main {
+    color: #0000ee;
+    font-weight: bold;
+}
+.list_main_var {
+    color: #000;
+}
+
+/*Таблица*/
+.page_table {
+    border-bottom: 2px solid #2c2c2c;
+    border-left: 1px solid #2c2c2c;
+    border-right:1px solid #808080 ;
+    border-top: 1px solid #808080;
+}
+.page_table td ,th {
+    border-top:1px solid #2c2c2c;
+    border-left:1px solid #2c2c2c;
+    border-bottom:1px solid #808080;
+    border-right:1px solid #808080;
+}
+/*Рисункок*/
+.page_img {
+    width:50%;
+    height:30%;
+}
+hr {
+    color: #9a9a9a;
+}
+/*ссылки*/
+.links {
+    color:#0000ee;
+}
+.links :hover {
+    color:#0000ee;
+}
+
+/*Поля , кнопки*/
+input {
+    border: 1px solid #999999;
+    place-color: #808080;
+    font-size: 16px;
+}
+textarea{
+    border: 1px solid #999999;
+    font-size: 16px;
+}
+form {
+    margin-top: 30px;
+}
