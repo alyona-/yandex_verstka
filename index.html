@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Простой макет</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+</head>
+<body>
+<div class="page">
+<h1 class="page_title_one">Алиса в Cтране чудес</h1>
+<p class="page_text">Материал из Википедии свободной энциклопедии</p>
+<hr/>
+<img class="page_img" alt="заяц" src="img/rabbit.png" />
+<hr />
+<h2 class="page_title_two">Содержание</h3>
+<ol class="list_main">
+    <li class="list_main_var">
+        <a href="#history_creat" class="links">История создания</a>
+    </li>
+    <li class="list_main_var">
+        <a href="#story" class="links">Сюжет</a>
+    </li>
+    <li class="list_main_var">
+        <a href="#characters" class="links">Персонажи</a>
+    </li>
+    <li class="list_main_var">
+        <a href="#criticism" class="links">Критика</a>
+            <ol>
+                <li>
+                    <a href="#british_critics_reviews" class="links">Отзывы британских критиков</a>
+                </li>
+                <li>
+                    <a href="#reviewed_worldwide" class="links">Отзывы во всем мире</a>
+                </li>
+                <li >
+                    <a href="#reviewed_in_russia" class="links">Отзывы в России</a>
+                </li>
+            </ol>
+    </li>
+</ol>
+<hr/>
+<h3 class="page_title_three"><a name="history_creat">История создания</a></h3>
+<p class="page_text">Первая публикация «Алисы» состоялась 4 июля 1865 года, ровно через три года после того, как
+    Его Преподобие Чарльз Лютвидж Доджсон и Его Преподобие Робинсон Дакворт на лодке
+    поднялись вверх по Темзе в обществе трёх девочек</p>
+<hr />
+<h3 class="page_title_three"><a name="story">Сюжет</a></h3>
+<p class="page_text">Алиса бежит за Белым Кроликом и внезапно проваливается в глубокую кроличью нору, которая
+    выводит её в загадочную комнату с множеством закрытых дверей.</p>
+<hr/>
+<h3 class="page_title_three"><a name="characters">Персонажи</a></h3>
+<p class="page_text">Ввиду разнообразности вариантов перевода каждого имени персонажа ниже представлена
+    таблица с указанием различных переводов</p>
+<table class="page_table">
+    <tr>
+        <th>Демурова</th>
+        <th>Оригинал</th>
+        <th >Набоков</th>
+        <th>Заходер</th>
+        <th>Щербаков</th>
+        <th>Яхнин</th>
+     </tr>
+    <tr>
+        <td>Алиса</td>
+        <td>Alise</td>
+        <td>Аня</td>
+        <td>Алиса</td>
+        <td>Алиса</td>
+        <td>Алиса</td>
+    </tr>
+    <tr>
+        <td>Болванщик</td>
+        <td>Hatter</td>
+        <td>Шляпник</td>
+        <td>Шляпа</td>
+        <td>Шляпочник</td>
+        <td>Котелок</td>
+    </tr>
+</table>
+
+
+    <h3 class="page_title_three"><a name="criticism">Критика</a></h3>
+    <p class="page_text">Большая часть критических отзывов на книгу положительны, хотя иногда критикуют (но чаще
+        хвалят) странный непредсказуемый сюжет.</p>
+
+    <h3 class="page_title_three"><a name="british_critics_reviews">Отзывы британских критиков</a></h3>
+    <p class="page_text">В Великобритании первые отзывы на книгу были весьма критичны: за редкими исключениями
+        рецензенты отказывались видеть хоть какой-то смысл в «блужданиях» Алисы. Отношение
+        критики изменилось лишь спустя несколько десятилетий.</p>
+
+    <h3 class="page_title_three"><a name="reviewed_worldwide">Отзывы во всем мире</a></h3>
+    <p class="page_text">В 1931 «Алиса» попала в список запрещенных книг в китайской провинции Хунань, поскольку
+        «животные не должны говорить человеческим голосом» и «нельзя показывать животных и
+        людей равными»</p>
+
+    <h3 class="page_title_three"><a name="reviewed_in_russia">Отзывы в Росcии</a></h3>
+    <p class="page_text">Отзыв из журнала «Женское образование»:</p>
+    <blockquote>
+        <p>
+        Есть книги, о которых и десяти слов сказать не хочется, до того они ниже всякой
+        критики. Лежащее перед нами издание принадлежит именно к их числу.
+        Бессодержательнее и нелепее этой сказки или, вернее, просто небывальщины (так
+        как в создании сказки предполагается участие фантазии) трудно себе что-нибудь
+        представить. Советуем всем матерям пройти мимо этого никуда не годного
+        измышления, не приостанавливаясь ни на минуту.
+        </p>
+    </blockquote>
+
+    <hr/>
+
+    <form action="" name="myform" method="post">
+        <label for="name">имя:</label>
+        <input id="name" type="text" placeholder="Алиса"/>
+        <br />
+        <input type="radio" value="0" name="place" id="zerkalo"/>
+        <label for="zerkalo">в Зазеркалье</label>
+        <br>
+        <input type="radio" value="1" name="place" id="chydo"/>
+        <label for="chydo">в стране чудес</label>
+        <br />
+        <textarea id="message" cols="30" rows="3" placeholder="Комментарий"></textarea>
+        <br>
+        <input type="checkbox" name="update" id="update" checked="checked"/>
+        <label for="update">подписаться на новые комментарии</label>
+        <br />
+        <input type="submit" name="send" value="Отправить" id="send"/>
+    </form>
+</div>
+
+</body>
+</html>
